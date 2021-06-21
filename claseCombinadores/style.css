@@ -1,0 +1,37 @@
+/*
+este es un combinador normal, al p junto a h2 se le aplica
+h2 + p{
+    color: red;
+} 
+*/
+
+
+/* ------------------------- */
+
+/* 
+este es un combinador general sibling
+h2 ~ p{
+    color:red;
+
+} 
+este de arriba es para hermanos generales, al parecer es para el mismo bloque elemento o nivel, no necesariamente junto
+el virgulillo es alt+126
+*/
+
+
+/* ----------------------------------- */
+/* 
+ hijo directo
+//el padre div que sea padre de una etiqueta parrafo
+la etiqueta p que sea hija de div es al que se le aplica el cambio
+div > p {
+    color: red;
+
+} */
+/* ----------------------------------- */
+
+
+/* combinador decendiente se aplica a todos los p dentro del div*/
+div p{
+    color: red;
+}
