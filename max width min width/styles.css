@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100vw;
+    height: 50vh;
+    background-color: purple;
+}
+
+/* vw es viewport width y vh viewport height */

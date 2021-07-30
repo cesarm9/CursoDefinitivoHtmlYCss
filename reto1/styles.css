@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+
+.maincontainer{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    height: 90vh;
+    width: 100vw;
+}
+.header{
+    background-color: green;
+}
+.menubuttons{
+    background-color: indianred;
+    width: 100vw;
+    height: 2em;
+    display: flex;
+    justify-content: flex-end;
+}
+.menubuttons p
+{
+    background-color: green;
+    margin: 0 5px 0 0;
+}
+.menubuttons p:hover
+{
+    background-color: white;
+    margin: 0 5px 0 0;
+}
+.asideleft{
+    background-color:blue;
+    height: 86.6vh;
+    width: 20vw;
+    padding: 1em;
+}
+.elemento{
+    display: block;
+    
+    background-color: white;
+    height: 10em;
+    width: 90;
+    margin: 3em;
+}
+.footer1{
+height: 20px;
+background-color: white;
+
+}
