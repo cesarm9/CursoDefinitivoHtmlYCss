@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    /* pone el font size a 10 px entonces se usa rem como 1 rem igual a 10px */
+}
+
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blanchedalmond;
+
+}
+
+.box2{
+    background-color: blue;
+
+}
+
+.box3{
+    background-color: blueviolet;
+
+}
+
+.box4{
+    background-color: brown;
+
+}
+
+.box5{
+    background-color: burlywood;
+
+}
+
+.box6{
+    background-color: cadetblue;
+
+}
+
